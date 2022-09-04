@@ -2,7 +2,11 @@
     "include": [
         "src/**/*.ts"
     ],
-    "exclude": [
-        "node_modules"
-    ]
+    "compilerOptions": {
+        "target": "es2016",
+        "module": "CommonJS",
+        "strict": true,
+        "sourceMap": true,
+        "declaration": true
+    },
 }

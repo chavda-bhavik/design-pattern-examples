@@ -147,3 +147,6 @@ const officeMoniter = officeMenu.getMoniter();
 console.log(officeMouse.getMouseType());
 console.log(officeKeyboard.getKeyboardType());
 console.log(officeMoniter.getMoniterType());
+
+
+export {}
